@@ -20,5 +20,5 @@ module svcacct {
   count                       = 1
   source                      = "./modules/SVCACCT"
   rr_svc_acct_username        = "avdsa${count.index}@cwpsdev.com"
-  rr_svc_acct_pw              = "Password123"
+  rr_svc_acct_passwd          = "P@$sw0rd3210"
 }
